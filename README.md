@@ -19,7 +19,7 @@ Upon success the endpoint will return a 200 OK and an answer containing the JWT 
   "must_change_password":false
 }
 ```
-This JWT should then be used within the Authorization HTTP header in subsequent requests:\
+This JWT should then be used within the Authorization HTTP header in subsequent requests:
 ```
 Authorization: bearer eyJhbGciOiJIUzI1NiI..x6EfI
 ```
