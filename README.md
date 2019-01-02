@@ -7,6 +7,7 @@ Project Documentation for Discovery Trademarks
 To authenticate via JWT you must first obtain a JWT. To do so send a POST request to "_open/auth"
 containing username and password JSON-encoded like so:
 ```json
+//endpoint example: https://inventa.com/_open/auth
 {
   "username":"root",
   "password":"rootPassword"
