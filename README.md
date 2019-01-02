@@ -4,7 +4,7 @@ Project Documentation for Discovery Trademarks
 ## Authentication
 
 ### Authentication via JWT
-To authenticate via JWT you must first obtain a JWT. To do so send a POST request to "https://url/_open/auth"
+To authenticate via JWT you must first obtain a JWT. To do so send a POST request to "_open/auth"
 containing username and password JSON-encoded like so:
 ```json
 {
